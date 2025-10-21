@@ -31,7 +31,7 @@ func main() {
 	logger := logging.WithContext(ctx)
 
 	app := cli.NewApp()
-	app.Name = "pessimism"
+	app.Name = "pessimism-test"
 	app.Usage = "Pessimism Application"
 	app.Description = "A monitoring service that allows for " +
 		"Op-Stack and EVM compatible blockchains to be continuously assessed for real-time threats"
